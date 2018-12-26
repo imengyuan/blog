@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="bioinfo,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="常用生物信息学网站/软件总结，以及总结一下这学期bioinfo课学了啥。">
+<meta name="keywords" content="bioinfo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="生物信息学软件推荐&#x2F;课程总结">
+<meta property="og:url" content="http://yoursite.com/2017/12/21/2017-12-14-bioinfo-course-review/index.html">
+<meta property="og:site_name" content="Vicia&#39;s Notes">
+<meta property="og:description" content="常用生物信息学网站/软件总结，以及总结一下这学期bioinfo课学了啥。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-01-23T14:59:28.731Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="生物信息学软件推荐&#x2F;课程总结">
+<meta name="twitter:description" content="常用生物信息学网站/软件总结，以及总结一下这学期bioinfo课学了啥。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/12/21/2017-12-14-bioinfo-course-review/">
+
+
+
+
+
+  <title>生物信息学软件推荐/课程总结 | Vicia's Notes</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Vicia's Notes</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">计算 x 生物 | 笔记、分享和推荐</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/21/2017-12-14-bioinfo-course-review/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="计算生物学 学生">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://viciayuan.github.io/images/171203/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Vicia's Notes">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">生物信息学软件推荐/课程总结</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-21T13:55:00+08:00">
+                2017-12-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/bioinfo/" itemprop="url" rel="index">
+                    <span itemprop="name">bioinfo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>常用生物信息学网站/软件总结，以及总结一下这学期bioinfo课学了啥。<br><a id="more"></a></p>
+<p>写在前面：这是一篇课程笔记，对这学期的生物信息学课程主要内容做了大致的总结。由于是给本科三年级计算生物学专业学生开设，这门课内容可能会比较基础，写笔记在这里也是希望对同在入门的同学有所帮助。详略程度很受我自己的影响，不清楚的地方可以自行深入了解orz..也欢迎补充、指正、交流。</p>
+<p>总的来说这学期的生物信息学课内容详略得当、作业合理，可能以后更多和具体项目结合会更好。这篇文章会简单总结一下生物信息学一些大方向的概要笔记、和一些常用网站/软件资源。可以先收藏老师的这个汇总网站再看下面的总结↓↓↓</p>
+<p><a href="http://www.labshare.cn/biosoft/index.html" target="_blank" rel="noopener">LabShare 生物信息学在线软件集锦</a></p>
+<p>在查资料过程偶遇北大Applied Bioinfomatics Course的课程网站,很多学习资源和总结，可以看看 <a href="http://abc.cbi.pku.edu.cn/index.php" target="_blank" rel="noopener">网站链接</a><br><br><br><!--2--></p>
+<h1 id="数据库资源"><a href="#数据库资源" class="headerlink" title="数据库资源"></a>数据库资源</h1><p>几个常用生物数据库，前三个是最基础常用的。</p>
+<ol>
+<li>核酸序列数据库<a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" rel="noopener">GenBank</a></li>
+<li>蛋白序列数据库<a href="http://www.uniprot.org/" target="_blank" rel="noopener">UniProt</a> </li>
+<li>生物大分子三维结构数据库<a href="http://www.pdb.org" target="_blank" rel="noopener">PDB</a> <!--12万的数据，不是特别多，折叠模式一两千，很有限--></li>
+<li>蛋白质结构数据库<a href="http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi" target="_blank" rel="noopener">SCOP</a></li>
+<li>基因芯片数据库<a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener">GEO</a> </li>
+<li>肿瘤基因图谱数据库<a href="https://cancergenome.nih.gov/" target="_blank" rel="noopener">TCGA</a></li>
+</ol>
+<p><strong>GenBank</strong></p>
+<ul>
+<li>GenBank与欧洲<a href="https://www.ebi.ac.uk/ena" target="_blank" rel="noopener">EMBL</a>、 日本<a href="http://www.ddbj.nig.ac.jp/" target="_blank" rel="noopener">DDBJ</a>建立了交换数据的合作关系</li>
+<li>分类：高通量基因组序列（HTG）、表达序列标记（EST）、序列标记位点（STS）、基因组概览序列（GSS）</li>
+<li>内容：将一条序列相关的各种信息，按一定的结构，以文本文件(text file)的形式组织在一起，构成一个GenBank record (entry)</li>
+</ul>
+<p><strong>Universal Protein Knowledgebase(UniProt)</strong></p>
+<ul>
+<li>Swiss-Prot， TrEMBL 和 PIR 三大数据库组合</li>
+<li>UniProtKB/Swiss-Prot：检查过的、手工注释的条目;UniProtKB/TrEMBL:未校验的、自动注释的条目</li>
+</ul>
+<p><strong>Protein Data Bank(PDB)</strong></p>
+<ul>
+<li>搜索方式：PDB id、文本、针对特定领域的数据库</li>
+</ul>
+<!--3 4 5,6-->
+<p><br></p>
+<h1 id="序列比对"><a href="#序列比对" class="headerlink" title="序列比对"></a>序列比对</h1><p>从序列的相似性推测同源性，进而得到关于结构、功能和进化的关系。这里要注意同源性是生物学上关系的描述，而相似性是针对数据本身差异的描述，相似并不一定说明同源。</p>
+<p>那么是选取蛋白质的序列还是DNA的序列作比对呢？一般从进化意义上分析,蛋白比对比核苷酸更可取，蛋白序列比核苷酸序列可以追溯更久的历史，其次，分析蛋白质的序列忽略了密码子简并性，得到结果更反映进化关系。</p>
+<p>比对序列之前，首先要评估不同氨基酸的相似性。常用评估相似性方法：PAM矩阵和BLOSUM矩阵<br><!--基于统计的数据，反推概率--></p>
+<ul>
+<li>PAM矩阵(Point Accepted Mutation)：由最初一个数据库得到的氨基酸两两突变频率表</li>
+<li>BLOSUM矩阵：蛋白质序列高度保守部分比对得到，是现在很多软件的首选</li>
+</ul>
+<p>使用区别</p>
+<ul>
+<li>PAM-n的n越小，表氨基酸变异可能性小，小n适合更相似的序列之间使用</li>
+<li>BLOSUM-n的n越小，表氨基酸相似可能性小，小n适合不太相似的序列之间使用</li>
+</ul>
+<!--概率矩阵乘法,外推远缘概率值PAM1>>PAM250 啥意思-->
+<p>关于序列比对算法，都采用了动态规划的思想</p>
+<ul>
+<li>全局：Needleman-Wunsch算法，序列头尾空位都要罚分</li>
+<li>局部：Smith-Waterman算法，只关注局部</li>
+</ul>
+<p>（这学期有个选做作业就是实现Needleman-Wunsch算法）</p>
+<h2 id="Blast-Basic-Local-Alignment-Search-Tool"><a href="#Blast-Basic-Local-Alignment-Search-Tool" class="headerlink" title="Blast (Basic Local Alignment Search Tool)"></a>Blast (Basic Local Alignment Search Tool)</h2><p>Blast是寻找序列局部相似性的算法，另有一个很老的算法叫FASTA，针对全局的序列比对。Blast在双序列比对中有很广的应用，<a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noopener">NCBI Blast</a>和<a href="http://www.uniprot.org/blast/" target="_blank" rel="noopener">Uniprot Blast</a>都提供了在线的使用。除此之外，双序列比对算法也有基于隐马尔科夫模型的<a href="https://www.ebi.ac.uk/Tools/hmmer/search/phmmer" target="_blank" rel="noopener">HMMER</a>和<a href="https://toolkit.tuebingen.mpg.de/hhblits" target="_blank" rel="noopener">HHblits</a>，速度更快。</p>
+<p>前面提到序列之间的相似性只能推测其同源性，Blast的统计学显著性由E-value评估，E值越小，结果越有意义。有一些经验规则，如E值小于 0.01的序列可以认定为同源序列。</p>
+<!--Blast针对局部，FASTA全局-->
+<p>Blast搜索结果的应对策略</p>
+<ul>
+<li>结果过多：合适的数据库、限定种属、各结构域单独搜索、调整评分矩阵、调整E值阈值</li>
+<li>结果过少：不同的数据库、取消种属限制、使用n小的BLOSUM矩阵或n大的PAM矩阵、提高E值、PSI-BLAST或HMMs(隐马模型)等更敏感的办法</li>
+</ul>
+<p>PSI-BLAST (Position-Specific Iterated Blast) 用于发现相似性低但可能存在生物学联系的相关蛋白。原理是：每次进行多序列比对后建立一个位置特异性矩阵(PSSM), 然后利用这个矩阵在数据库进行搜索，评估结果的统计学显著性，再根据搜索结果更新PSSM，不断循环，最终得出结果。</p>
+<p>除了PSI-Blast，另一种缩写很像但完全不一样的PHI-BLAST (Pattern-Hit Initiated Blast) 算法可以按一定的序列模式进行搜索，Pattern的语法规则<a href="https://www.ncbi.nlm.nih.gov/blast/html/PHIsyntax.html" target="_blank" rel="noopener">pattern syntax</a>，序列特征参考<a href="http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/" target="_blank" rel="noopener">PRINTS</a>,<a href="https://prosite.expasy.org/" target="_blank" rel="noopener">PROSITE</a>.</p>
+<h2 id="多序列比对-multi-sequence-alignment"><a href="#多序列比对-multi-sequence-alignment" class="headerlink" title="多序列比对(multi-sequence alignment)"></a>多序列比对(multi-sequence alignment)</h2><p>多序列比对用于找出 <strong>一组序列</strong> 中的保守片段，以便进行结构、功能、进化方面的分析。与双序列比对不同，多序列比对照顾不到每两个序列比对结果，只能尽量使相似的地方出现在相同位置；并且结果无对错之分，我们只能评价这个结果是否合理。<br><!--这里弄一张表格 ppt6 --><br>多序列比对的方法</p>
+<ul>
+<li>手工比对（先Needleman-Wunsch动态规划两两比对，再肉眼观察对齐一些关键性残基）</li>
+<li>同步法（扩展二维动态规划矩阵到多维，将所有序列同时比对，计算量大，适合少量短序列）</li>
+<li>步进法（先Needleman算法两两比对，选出一对最相近序列作为基准，将和两条基准序列最相近的第三条序列加进去一起对齐，如果有空位则遵循“once a gap, always a ap”原则，陆续加入其他序列直到全部完成）</li>
+</ul>
+<p>步进法的代表为<a href="http://www.clustal.org/" target="_blank" rel="noopener">ClustalW</a>，现在已发展为Clustal Omega。除了ClustalW，也有其他具有不同特点的软件，如MUSCLE, MAFFT,Cobalt,PRALINE, ProbCons, T-Coffee, Expresso, M-coffee等，这是<a href="https://omictools.com/multiple-sequence-alignment-category" target="_blank" rel="noopener">omictools</a>网站列出的相关软件，<a href="https://en.wikipedia.org/wiki/List_of_sequence_alignment_software" target="_blank" rel="noopener">wiki</a>上也列出的双序列和多序列比对算法及其特点，可以大致看看。<br><!--先两两比对，得到初始consensus序列，其他再和这个比较--></p>
+<p>多序列比对在序列相似程度较低的时候准确性会明显下降。确定结果是否准确可以看：蛋白质保守的残基、motif、二级结构偏好和一些区域恒定的插入删除模式。</p>
+<p>多序列比对结果的形象显示工具——<a href="http://weblogo.berkeley.edu/logo.cgi" target="_blank" rel="noopener">Squence Logo</a><br><br></p>
+<h1 id="进化树构建"><a href="#进化树构建" class="headerlink" title="进化树构建"></a>进化树构建</h1><p>研究生物进化的一个重要途径就是对于生物大分子的比较，根据分子进化速率恒定（中性理论）、不同物种同源大分子的进化速率大致相同（分子钟理论）等，可通过不同物种同源大分子的比较，确定物种间亲缘关系、分支时间、构建系统进化树。</p>
+<p>这一部分推荐文章开头提到应用生物信息课程的一个<a href="http://abc.cbi.pku.edu.cn/talk/phylogeny-yang-q.pdf" target="_blank" rel="noopener">分子系统发育分析课件</a></p>
+<h2 id="分子进化树的构建"><a href="#分子进化树的构建" class="headerlink" title="分子进化树的构建"></a>分子进化树的构建</h2><p>方法有：</p>
+<ul>
+<li>距离法（UPGMA, Minimal Evolution, Neighbor-Joining）</li>
+<li>最大简约法 （Maximum parsimony，MP）</li>
+<li>最大似然法 （Maximum likelihood，ML）</li>
+<li>贝叶斯推断 （Bayesian）</li>
+</ul>
+<p>建立分子进化树之后一定要进行可靠性检验，常用方法为bootstrap法，一般认为Bootstrap值&gt;70时，进化树可信。对比较序列上的替换位点作多次随机取样，根据每次取样的数<br>据可以得到新的树形图，相同的组合出现在某一个节点上的次数占总取样次数的百分比就是该节点的bootstrap值。另外的进化树可信度检验方法还有Delete-half-jackknifing, Permuting species within characters</p>
+<p>常用绘制进化树的软件：</p>
+<ul>
+<li><a href="http://evolution.genetics.washington.edu/phylip.html" target="_blank" rel="noopener">PHYLIP</a> (Phylogenetic Inference Package)</li>
+<li><a href="http://www.megasoftware.net/mega4/" target="_blank" rel="noopener">Mega</a> (Molecular Evolutionary Genetics Analysis)</li>
+<li><a href="http://paup.sc.fsu.edu/about.html" target="_blank" rel="noopener">PAUP</a> (Phylogenetic Analysis Using Parsimony)</li>
+<li><a href="http://web.mit.edu/6.891/www/lab/paml.html" target="_blank" rel="noopener">PAML</a> (Phylogenetic Analysis by Maximum Likelihood) </li>
+</ul>
+<h2 id="分子进化的局限"><a href="#分子进化的局限" class="headerlink" title="分子进化的局限"></a>分子进化的局限</h2><p>分子进化和物种进化也是有区别的，使用分子进化推测物种进化会存在一些问题。</p>
+<ul>
+<li>单个分子代表整个物种的片面性问题</li>
+<li>基因横向迁移(Lateral Gene Transfer)的问题</li>
+<li>基因重复(gene duplication)使难以区分直系或旁系同源的问题</li>
+<li>方法本身没有考虑多次突变、回复突变的问题</li>
+</ul>
+<p>用一个特征分子代表一个物种的方法受到了质疑，且生命出现早期基因横向迁移的现象也使进化树成网状而不是单纯的二叉树。也有人提出基于共有基因含量的进化树构建（nature genetics,1999）。两个基因组之间的共同基因的数量与它们的进化距离相关，以此来推断两个物种间的相似性。</p>
+<!--基本思想
+具体步骤
+算法很多
+都要做可信度检验（默认）判断可靠不可靠
+bootstrap选样是否有可靠性，70%为可靠
+常用软件
+Mega
+PHILIP-->
+<p><br><br><!--10--></p>
+<h1 id="蛋白质三维结构分析与预测"><a href="#蛋白质三维结构分析与预测" class="headerlink" title="蛋白质三维结构分析与预测"></a>蛋白质三维结构分析与预测</h1><p>通常使用均方根偏差RMSD(root mean square deviation)作为两种或更多种蛋白质结构之间相似性的定量度量。RMSD通常是骨架原子之间平均距离的量度，单位是埃，RMSD越低，模型与目标结构相比越好。RMSD小于2埃时表示结构很相似，大于6.5埃表示拓扑结构不同。<br><!--插入一个公式？--></p>
+<p>结构比对的网站：1.RCSB PDB<a href="https://www.rcsb.org/pdb/secondary.do?p=v2/secondary/analyze.jsp#Sequence" target="_blank" rel="noopener">Sequence &amp; Structure Alignment</a>, 2.<a href="http://cao.labshare.cn/Tools/structurealign.php" target="_blank" rel="noopener">StructureAlign by Dr. Cao</a><br>蛋白质三维结构预测一直是个有重要意义并受到很多关注的领域，并有专门且持续的比赛<a href="https://en.wikipedia.org/wiki/CASP" target="_blank" rel="noopener">CASP</a></p>
+<p>蛋白质三维结构预测的主要办法有基于模板的结构预测（同源建模、折叠识别）,不依赖模板的结构预测（从头计算）。按常用顺序依次是同源建模、折叠识别、从头计算，实在找不到模板了才会从头计算。</p>
+<!--
+结构比对
+蛋白质三维结构预测的主要办法
+基于模板的结构预测：同源建模和折叠识别,不依赖模板的结构预测：从头计算
+能量（结构是否合理）
+搜索算法（旋转角的数据）
+找不到模板再重头计算（重要！！）
+-->
+<h2 id="同源建模-Homology-modeling"><a href="#同源建模-Homology-modeling" class="headerlink" title="同源建模 Homology modeling"></a>同源建模 Homology modeling</h2><p>八个步骤 比对-&gt;建模-&gt;修正 （这段大家感受一下思想和流程…总结得可能不准确）</p>
+<ol>
+<li>Template recognition and initial alignment<br>PDB里Blast寻找匹配程度最高的，作为模板</li>
+<li>Alignment correction<br>修正功能性的残基、删除位点等，使用多序列比对</li>
+<li>Backbone generation<br>使用模板产生主干的模型，按上面判断删除位点、保留保守残基</li>
+<li>Loop modeling<br>条带连接部分的loop选择后匹配</li>
+<li>Sidechain modeling<br>侧链角度的匹配</li>
+<li>Model optimization<br>分子动力学模拟使结构能量最低，全局优化</li>
+<li>Model validation<br>检验phi角等来确认模型是否合理，网站<a href="http://www.biochem.ucl.ac.uk/~roman/procheck/procheck.html" target="_blank" rel="noopener">ProCheck</a>, <a href="http://swift.cmbi.kun.nl/WIWWWI//" target="_blank" rel="noopener">WhatIf server</a></li>
+<li>Iteration<br>从错误的步骤重新开始，不断循环直至得到目标结构</li>
+</ol>
+<p>推荐软件</p>
+<ul>
+<li><a href="https://salilab.org/modeller/" target="_blank" rel="noopener">Modeller</a></li>
+<li><a href="https://swissmodel.expasy.org/" target="_blank" rel="noopener">SWISS MODEL</a></li>
+</ul>
+<h2 id="折叠识别-Fold-Recognition-Threading"><a href="#折叠识别-Fold-Recognition-Threading" class="headerlink" title="折叠识别 Fold Recognition/Threading"></a>折叠识别 Fold Recognition/Threading</h2><!--maybe a graph-->
+<p>基于蛋白折叠模式来预测，例子是这个</p>
+<p><a href="https://zhanglab.ccmb.med.umich.edu/I-TASSER/" target="_blank" rel="noopener">I-TASSER</a> (Iterative Threading ASSEmbly Refinement)</p>
+<h2 id="从头计算-Ab-initio-de-novo-prediction"><a href="#从头计算-Ab-initio-de-novo-prediction" class="headerlink" title="从头计算 Ab initio/de novo prediction"></a>从头计算 Ab initio/de novo prediction</h2><p>已知结构的片段建库，与蛋白序列对应，组装这些亚结构的单元，可以预测新的结构。例子是这个</p>
+<p><a href="https://zhanglab.ccmb.med.umich.edu/QUARK/" target="_blank" rel="noopener">QUARK</a>:Ab initio structure prediction method</p>
+<!--片段装配-->
+<p><br><br><!--11--></p>
+<h1 id="分子对接与虚拟筛选"><a href="#分子对接与虚拟筛选" class="headerlink" title="分子对接与虚拟筛选"></a>分子对接与虚拟筛选</h1><p>分子对接即预测受体和配体分子形成的复合物结构，分为两类：蛋白和蛋白、蛋白和小分子。两者结合特征不同，蛋白和小分子结合面很小，有结合口袋binding pocket，结合准确性高，这里主要讨论蛋白与小分子结合。</p>
+<p>找出空穴，定出表面</p>
+<ul>
+<li><a href="http://www.modelling.leeds.ac.uk/qsitefinder" target="_blank" rel="noopener">Q-SiteFinder</a></li>
+<li><a href="http://scbx.mssm.edu/sitehound/sitehound-web/Input.html" target="_blank" rel="noopener">SiteHound</a></li>
+</ul>
+<p>代表性对接软件<br>有很多 Flex X, LigandFit, Glide, Gold, AutoDock, Dock, ICM-Dock, Fred(open eye) etc. Autodock Vina的<a href="http://vina.scripps.edu/" target="_blank" rel="noopener">网站</a></p>
+<p>分子对接计算的需要注意的地方也需从小分子、蛋白质和对接三方面来考虑。</p>
+<h2 id="药物设计与发现"><a href="#药物设计与发现" class="headerlink" title="药物设计与发现"></a>药物设计与发现</h2><p>分子对接对于药物靶点的发现十分重要，现代药物开发多从疾病入手，用疾病模型去寻找可能的药物靶点。高通量药物筛选（High throughput screen,HTS）技术便是生物信息应用到这一领域的技术。曾在生命科学联合中心暑期班通过清华药学院一位老师讲他们实验室做的相关成果，有时间再来这里补充一下。</p>
+<h2 id="虚拟筛选"><a href="#虚拟筛选" class="headerlink" title="虚拟筛选"></a>虚拟筛选</h2><p>指的是从大量的化合物中经过筛选，找出与靶标分子结合的最佳分子，得到一个合理大小的化合物库，然后仅对这些适合成药的化合物购买、合成或分离得到，然后再进行实际的生物测试。</p>
+<p><br></p>
+<h1 id="蛋白质设计"><a href="#蛋白质设计" class="headerlink" title="蛋白质设计"></a>蛋白质设计</h1><p>蛋白质设计是蛋白质三维结构预测的逆问题，即已知结构，找到能折叠成这个结构的氨基酸序列。蛋白质设计的一些例子有：蛋白间相互作用的设计、酶催化反应的设计、HIV疫苗等。（此处略去很多老师给的例子…）</p>
+<p>可以看看这个建模和分析蛋白结构的软件<a href="https://www.rosettacommons.org/software" target="_blank" rel="noopener">Rosetta software suite</a><br>蛋白质设计存在的困难在于打分函数、搜索算法和应用这三方面。<br><!--
+存在的问题，困难和解决
+--></p>
+<p><br></p>
+<h1 id="生物芯片分析"><a href="#生物芯片分析" class="headerlink" title="生物芯片分析"></a>生物芯片分析</h1><p>基因芯片的数据分析有以下几类：</p>
+<ol>
+<li>差异表达分析<br>使用标准的统计学方法检验 (t-test)，发现统计显著性差异表达的基因</li>
+<li>基因共表达分析<br>在N个不同的条件下 (时间序列的芯片数据)，考察基因X和Y的表达是否相似</li>
+<li>表达数据的聚类<br>将表达谱相似的基因聚类在一起</li>
+<li>与GO数据库关联分析<!--注释库--></li>
+<li>基因调控网络</li>
+</ol>
+<p>几个没细看的数据库：<a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener">Gene Expression Omnibus-NCBI</a>;<a href="https://www.ebi.ac.uk/arrayexpress/" target="_blank" rel="noopener">ArrayExpress-EMBL</a>;<a href="http://smd.princeton.edu/" target="_blank" rel="noopener">用不了的的Stanford Microarray Database</a><br><br></p>
+<h1 id="基因结构分析"><a href="#基因结构分析" class="headerlink" title="基因结构分析"></a>基因结构分析</h1><p>一些常用软件（emmm因为懒所以这里就不附上超链接了）</p>
+<ol>
+<li>识别基因  GENSCAN;GENOMESCAN</li>
+<li>CpG岛  CpGPlot</li>
+<li>启动子/转录起始位点  PromoterScan</li>
+<li>转录终止信号  POLYAH</li>
+<li>密码子偏好分析  CodonW</li>
+<li>mRNA剪切位点  NETGENE2；Spidey</li>
+<li>选择性剪切  ASTD</li>
+</ol>
+<!-- 识别基因
+GpG岛
+-->
+<p><br><br>如果发现我后面写的都很简略…一部分原因是后面的结构相关没有特别感兴趣，所以没有认真听，当然除了前面写的最详细的序列比对进化分析，后面的也很重要。希望这篇笔记能有所帮助，欢迎大家指正和补充orz</p>
+<!--Comment Area Here-->
+<p><div id="container"></div></p>
+<p><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"></p>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+
+var gitment = new Gitment({
+  //sid: '页面 ID', // 可选。默认为 location.href
+  owner: 'ViciaYuan',
+  repo: 'viciayuan.github.io',
+  oauth: {
+    client_id: '0edc885787509e0eadc7',
+    client_secret: '935379f53bf779fb6445d4341c9076418938c761',
+  },
+})
+gitment.render('container')
+</script>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/bioinfo/" rel="tag"># bioinfo</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/14/2017-12-14-species-delimitation-7-veils/" rel="next" title="Species delimitation review 物种界定综述（二）">
+                <i class="fa fa-chevron-left"></i> Species delimitation review 物种界定综述（二）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/21/2018-01-28-cpg-analysis/" rel="prev" title="练手项目 | 叶绿体基因组组装注释及提交">
+                练手项目 | 叶绿体基因组组装注释及提交 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://viciayuan.github.io/images/171203/avatar.jpg" alt="计算生物学 学生">
+            
+              <p class="site-author-name" itemprop="name">计算生物学 学生</p>
+              <p class="site-description motion-element" itemprop="description">Keep moving forward.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据库资源"><span class="nav-number">1.</span> <span class="nav-text">数据库资源</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#序列比对"><span class="nav-number">2.</span> <span class="nav-text">序列比对</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Blast-Basic-Local-Alignment-Search-Tool"><span class="nav-number">2.1.</span> <span class="nav-text">Blast (Basic Local Alignment Search Tool)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多序列比对-multi-sequence-alignment"><span class="nav-number">2.2.</span> <span class="nav-text">多序列比对(multi-sequence alignment)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#进化树构建"><span class="nav-number">3.</span> <span class="nav-text">进化树构建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#分子进化树的构建"><span class="nav-number">3.1.</span> <span class="nav-text">分子进化树的构建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分子进化的局限"><span class="nav-number">3.2.</span> <span class="nav-text">分子进化的局限</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#蛋白质三维结构分析与预测"><span class="nav-number">4.</span> <span class="nav-text">蛋白质三维结构分析与预测</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#同源建模-Homology-modeling"><span class="nav-number">4.1.</span> <span class="nav-text">同源建模 Homology modeling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#折叠识别-Fold-Recognition-Threading"><span class="nav-number">4.2.</span> <span class="nav-text">折叠识别 Fold Recognition/Threading</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从头计算-Ab-initio-de-novo-prediction"><span class="nav-number">4.3.</span> <span class="nav-text">从头计算 Ab initio/de novo prediction</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分子对接与虚拟筛选"><span class="nav-number">5.</span> <span class="nav-text">分子对接与虚拟筛选</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#药物设计与发现"><span class="nav-number">5.1.</span> <span class="nav-text">药物设计与发现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#虚拟筛选"><span class="nav-number">5.2.</span> <span class="nav-text">虚拟筛选</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#蛋白质设计"><span class="nav-number">6.</span> <span class="nav-text">蛋白质设计</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#生物芯片分析"><span class="nav-number">7.</span> <span class="nav-text">生物芯片分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基因结构分析"><span class="nav-number">8.</span> <span class="nav-text">基因结构分析</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">计算生物学 学生</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+<br>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+Page viewed by <span id="busuanzi_value_site_pv"></span> times &nbsp&nbsp&nbsp
+You're the NO.<span id="busuanzi_value_site_uv"></span> visitor
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
